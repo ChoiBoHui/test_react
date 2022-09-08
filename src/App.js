@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import './App.css';
 import DoubleText from './DoubleText'
-import Slick00 from './Slick00';
-import MainVisual from './Slick00';
-import GitUser from './GitUser';
+// import Slick00 from './Slick00';
+// import MainVisual from './Slick00';
+// import GitUser from './GitUser';
+// import MainSlider from './MainSlider';
+import MainSlider from "./component/MainSlider";
 const DB = [
   {
     id: 1,
@@ -73,8 +75,9 @@ function App() {
 
       </header>
       <main>
-        <GitUser />
-        <Slick00 />
+        {/* <GitUser />
+        <Slick00 /> */}
+        <MainSlider />
       </main>
     </div>
 
